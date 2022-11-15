@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #7886B3, 
+#5265A2,
+#4E5F95,
+#354A8D, 
+#1D2E66,
+#102361, 
+#061445, */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* width: ; */
+}
+main{
+    margin: auto;
+    text-align: justify;
+    background-color: #e5e2e2; 
+    width: 100%; 
+}
+article{
+    height: 200vh;
+    padding: 1px;
+}
+h1{
+    background-image: linear-gradient(to right,#7886B3,transparent);
+    text-indent: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 1.2em;
+    margin: auto 10px;
+}
+p{
+    margin: 10px;
+}
+
+
+/* TOPO */
+#topo #aviao{
+    margin: auto;
+    display: flex;
+}
+
+#clique{
+    background-image: none;
+    margin: 60px 100px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+/* COCKPIT */
+#cockpit h2{
+    margin: 20px;
+}
+#cockpit img{
+    
+    min-width: 49vw;
+    max-height:15vh;
+
+    max-width: 30vw;
+    min-height: 20vh;
+}
+
+@media screen and (min-device-width: 627px){
+    #cockpit iframe{
+    min-width: 100vw;
+    min-height: 38vh;
+    }
+}
+
+
+/* primeira-classe */
+#primeira-classe img{
+    
+    min-width: 49vw;
+    max-height:15vh;
+
+    max-width: 30vw;
+    min-height: 20vh;
+}
+
+@media screen and (min-device-width: 627px){
+    #primeira-classe iframe{
+    min-width: 100vw;
+    min-height: 41vh;
+    }
+}
+
+
+/* motor */
+#motor abbr{
+    text-decoration: none;
+}
+#motor img{
+    
+    min-width: 49vw;
+    max-height:15vh;
+
+    max-width: 30vw;
+    min-height: 20vh;
+}
+
+@media screen and (min-device-width: 627px){
+    #motor iframe{
+    min-width: 100vw;
+    min-height: 38.7vh;
+    }
+}
+
+
+/* asas */
+#asas img{
+    
+    min-width: 49vw;
+    max-height: 35vh;
+
+    max-width: 33vw;
+    min-height: 14vh;
+}
+
+@media screen and (min-device-width: 627px){
+    #asas iframe{
+    min-width: 100vw;
+    min-height: 31.5vh;
+    }
+}
+
+
+/* cabine */
+#cabine img{
+    
+    min-width: 49vw;
+    max-height: 5vh;
+
+    max-width: 3vw;
+    min-height: 12vh;
+}
+
+@media screen and (min-device-width: 627px){
+    #cabine iframe{
+    min-width: 100vw;
+    min-height: 32vh;
+    }
+}
+
+
+/* LOGO */
+#logo ul{
+    columns: 2;
+}
+#logo figcaption{
+    text-align: center;
+    margin: auto;
+}
+#logo img{
+    min-width: 49vw;
+    max-height: 15vh;
+
+    max-width: 3vw;
+    min-height: 12vh;
+}
